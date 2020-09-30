@@ -1,4 +1,4 @@
-FROM redis:3.0-alpine
+FROM redis:6-alpine
 
 ADD redis-sentinel.conf /etc/redis-sentinel.conf
 
